@@ -1,0 +1,108 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(251,251,255);
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: #555;
+}
+
+.sidebarMenu{
+     margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+    color: rgb(187,186,186);
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: rgb(240,240,250);
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}
+
+.sideBarMenuBox{
+    margin: 30px 20px;
+    padding: 50px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    background: linear-gradient(84deg, rgba(249,237,211,1) 0%, rgba(224,223,241,1) 100%);
+}
+
+.sideBarMenuBigIndicator{
+    width: 50px;
+    height: 50px;
+    background: none;
+    left: 160px;
+    top: 500px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.sideBarMenuIcon{
+    margin: 13px;
+    background: none;
+}
+
+.sideBarItemInfos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.sideBarTitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.sideBarSubTitle{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.sideBarHelpInfoContainer{
+    display: flex;
+}
+
+.sideBarButton{
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}

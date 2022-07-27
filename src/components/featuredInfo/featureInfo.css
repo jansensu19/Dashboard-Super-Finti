@@ -1,0 +1,142 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 30px 20px;
+    padding: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.featuredItem.purple{
+    background: rgb(249,237,211);
+    background: linear-gradient(84deg, rgba(249,237,211,1) 0%, rgba(224,223,241,1) 100%);
+}
+
+.featuredItem.yellow{
+    background: rgb(251,236,212);
+    background: linear-gradient(59deg, rgba(251,236,212,1) 0%, rgb(250, 223, 233) 100%);
+}
+
+.featuredItem.green{
+    background: rgb(160,249,174);
+background: linear-gradient(54deg, rgba(160,249,174,1) 0%, rgba(190,251,199,1) 37%, rgba(210,242,215,1) 56%, rgba(230,251,233,1) 75%, rgba(240,251,241,1) 93%);
+}
+
+.featuredItemInfos{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featuredTitle{
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.featuredTitleImg{
+    background: none;
+    width: 50px;
+}
+
+.featuredSubTitle{
+    background: none;
+    margin-left: 70px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.featuredSubIcon{
+    background: none;
+}
+
+.featuredMoneyContainer{
+    background: none;
+    margin: 10px 0px;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoneyContainer.vertical{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.featuredSmTitle{
+    background: none;
+    color: gray;
+    font-size: 12px;
+}
+
+.featuredInfoCard{
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.featuredInfoUserMoney{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.featuredWalletContainer{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(240, 206, 206);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.featuredWalletIcon{
+    background: none;
+    color: rgb(245, 106, 106);
+    margin: 18px;
+}
+
+.featuredMoneyInfoContainer{
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.featuredMoney{
+    background: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.featuredMoney.negative{
+    color: red;
+}
+
+.featuredMoneyRate{
+    background: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.featuredIcon{
+    background: none;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.featuredSub{
+    font-size: 18px;
+    background: none;
+    font-weight: 800;
+}
+
